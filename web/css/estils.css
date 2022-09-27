@@ -1,0 +1,88 @@
+/* FUENTE 1 */
+
+
+/* FUENTE 2 */
+
+
+
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    line-height:16px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  .titol{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .primerParagraf{
+    text-indent: 20px;
+
+  }
+
+  /* LINKS */
+  a:link{
+    text-decoration: none;
+    
+  }
+  a:visited{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+    background-color: lightblue;
+  }
+  a:active{
+    text-decoration: underline;
+  }
+  /* LINKS */
