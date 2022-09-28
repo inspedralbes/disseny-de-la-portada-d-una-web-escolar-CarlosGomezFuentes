@@ -59,7 +59,7 @@
   /* WRITE YOUR CODE BELOW HERE */
 
   .logo{
-    
+    float: left;
     width: 45px;
     height: 50px;
   }
