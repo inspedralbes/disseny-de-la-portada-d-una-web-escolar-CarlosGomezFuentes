@@ -18,6 +18,14 @@
   
   /* Layout */
 
+  .wrapper {
+    display: grid;
+    background-color: red;
+    grid-template-columns: (1fr 3fr);
+    gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
   section {
     float: left;
     width: 50%;
